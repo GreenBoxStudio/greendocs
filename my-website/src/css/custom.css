@@ -1,0 +1,83 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+--ifm-color-primary: #2ecc71; /* Emerald green */
+--ifm-color-primary-dark: #27ae60;
+--ifm-color-primary-darker: #219653;
+--ifm-color-primary-darkest: #1e8449;
+--ifm-color-primary-light: #34e77e;
+--ifm-color-primary-lighter: #48f08c;
+--ifm-color-primary-lightest: #66f5a3;
+
+--ifm-background-color: #2a2a2a; /* Dark gray background */
+--ifm-background-surface-color: #333333; /* Slightly lighter dark gray */
+--ifm-color-content: #f0f0f0; /* Light content for contrast */
+--ifm-color-content-secondary: #c0c0c0; /* Secondary content */
+
+--ifm-navbar-background-color: #2a2a2a; /* Dark gray navbar */
+--ifm-footer-background-color: #252525; /* Slightly darker footer */
+
+--gb-gray-900: #1a1a1a;
+--gb-gray-700: #3a3a3a;
+--gb-gray-600: #505050;
+--gb-gray-500: #6a6a6a;
+--gb-gray-200: #d0d0d0;
+--gb-gray-100: #e8e8e8;
+
+--ifm-code-font-size: 95%;
+--docusaurus-highlighted-code-line-bg: rgba(46, 204, 113, 0.2); /* Green highlight */
+}
+
+html,
+body {
+  background-color: var(--ifm-background-color);
+}
+
+.main-wrapper,
+.navbar,
+.footer,
+.theme-doc-markdown,
+.theme-doc-sidebar-container,
+.theme-doc-toc-desktop,
+.theme-doc-toc-mobile {
+  background-color: var(--ifm-background-color);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  /* Grüne Akzentfarbe – bleibt erhalten */
+  --ifm-color-primary: #61b784;
+  --ifm-color-primary-dark: #4ea873;
+  --ifm-color-primary-darker: #459c69;
+  --ifm-color-primary-darkest: #347c53;
+  --ifm-color-primary-light: #6dc08d;
+  --ifm-color-primary-lighter: #7ac697;
+  --ifm-color-primary-lightest: #96d4ad;
+
+  /* Neutraler dunkelgrauer Hintergrund – kein Grünstich */
+  --ifm-background-color: #1a1a1a;       /* Haupt-Hintergrund */
+  --ifm-background-surface-color: #222222; /* Cards, Blöcke */
+  --ifm-navbar-background-color: #181818;  /* Navbar */
+  --ifm-footer-background-color: #151515;  /* Footer */
+
+  /* Graustufen – korrekte Reihenfolge (100 = hell, 900 = dunkel) */
+  --gb-gray-100: #f0f0f0;  /* Hellster Text/Hintergrund */
+  --gb-gray-200: #d0d0d0;
+  --gb-gray-500: #888888;  /* Mittelgrau */
+  --gb-gray-600: #666666;
+  --gb-gray-700: #444444;
+  --gb-gray-900: #1a1a1a;  /* Dunkelster Hintergrund */
+
+  /* Textfarben */
+  --ifm-color-content: #e8e8e8;
+  --ifm-color-content-secondary: #b0b0b0;
+
+  /* Grüne Code-Highlights */
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(97, 183, 132, 0.2); /* Grüner Highlight */
+}

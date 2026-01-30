@@ -1,0 +1,105 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.hero {
+  padding: 4.5rem 0 3.5rem;
+  background: linear-gradient(180deg, rgba(46, 122, 79, 0.08), rgba(46, 122, 79, 0));
+}
+
+.heroGrid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.3fr) minmax(0, 0.7fr);
+  gap: 2.5rem;
+  align-items: center;
+}
+
+.heroContent {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.heroLogo {
+  width: 68px;
+  height: auto;
+}
+
+.heroTitle {
+  font-size: 2.75rem;
+  margin-bottom: 0.25rem;
+}
+
+.heroSubtitle {
+  font-size: 1.25rem;
+  color: var(--gb-gray-700);
+  margin-bottom: 0.75rem;
+}
+
+.heroDescription {
+  color: var(--gb-gray-600);
+  max-width: 36rem;
+}
+
+.heroButtons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 0.5rem;
+}
+
+.heroCard {
+  background: #ffffff;
+  border: 1px solid var(--gb-gray-200);
+  border-radius: 18px;
+  padding: 1.5rem;
+  box-shadow: 0 12px 32px rgba(15, 20, 17, 0.12);
+}
+
+.cardTitle {
+  margin-bottom: 1rem;
+}
+
+.cardList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.cardList a {
+  color: var(--ifm-font-color-base);
+  font-weight: 600;
+}
+
+.section {
+  padding: 2.5rem 0 0;
+}
+
+.sectionHeader {
+  max-width: 46rem;
+  display: grid;
+  gap: 0.75rem;
+}
+
+@media screen and (max-width: 996px) {
+  .hero {
+    padding: 3rem 0 2.5rem;
+  }
+
+  .heroGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .heroTitle {
+    font-size: 2.1rem;
+  }
+}
+
+[data-theme='dark'] .heroCard {
+  background: #121816;
+  border-color: #26312a;
+}

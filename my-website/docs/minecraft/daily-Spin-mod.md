@@ -1,6 +1,6 @@
-# Daily Case Mod
+# Daily Spin Mod
 
-![Daily Case Mod](https://105936045-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FxZch7KRqvxMrsxb9MUy4%2Fuploads%2Fu6ABcXsa4u51RojS5nrp%2Fminecraft_title3.png?alt=media&token=f9e65008-1674-49b2-bf78-e1c59103a332)
+![Daily Spin Mod](https://105936045-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FxZch7KRqvxMrsxb9MUy4%2Fuploads%2Fu6ABcXsa4u51RojS5nrp%2Fminecraft_title3.png?alt=media&token=f9e65008-1674-49b2-bf78-e1c59103a332)
 
 Welcome to the documentation for Daily Case Mod. This mod adds a system of daily rewards and purchasable crates to Minecraft servers, which can be fully customized through configuration files.
 
@@ -193,7 +193,7 @@ Download the complete example file with all predefined boxes (daily, premium, vi
     download
     style={{
       display: 'inline-block',
-      padding: '12px 24px',
+      padding: '1px 14px',
       backgroundColor: '#2f7a4f',
       color: 'white',
       textDecoration: 'none',

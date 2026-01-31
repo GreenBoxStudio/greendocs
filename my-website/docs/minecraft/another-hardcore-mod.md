@@ -1,21 +1,16 @@
-# Another Hardcore Mod
+Another Hardcore Mod
 
 :::info Coming Soon
-Die Dokumentation für den Another Hardcore Mod wird in Kürze hinzugefügt.
+Documentation for Another Hardcore Mod will be added shortly.
 :::
 
-Dieser Mod bringt zusätzliche Härte und Herausforderungen in dein Minecraft-Spiel.
+This mod adds extra difficulty and challenges to your Minecraft game.
 
 ## Features
 
-- Erhöhte Schwierigkeit
-- Neue Hardcore-Mechaniken
-- Vollständig konfigurierbar
+- Increased difficulty
+- New hardcore mechanics
+- Fully configurable
 
-## Installation
 
-1. Lade die `.jar`-Datei herunter
-2. Lege sie in den `mods`-Ordner
-3. Starte Minecraft neu
-
-Weitere Details folgen bald!
+More details coming soon!

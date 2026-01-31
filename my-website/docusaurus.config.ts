@@ -6,7 +6,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'GreenBox Studio Docs',
-  tagline: 'Die GitBook-Alternative für GreenBox Studio',
+  tagline: ' Studio',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -41,9 +41,8 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/GreenBoxStudio/greendocs',
+          // Edit this page link is disabled
+          editUrl: undefined,
         },
         blog: {
           showReadingTime: true,
@@ -51,9 +50,8 @@ const config: Config = {
             type: ['rss', 'atom'],
             xslt: true,
           },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/GreenBoxStudio/greendocs',
+          // Edit this page link is disabled
+          editUrl: undefined,
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -85,7 +83,6 @@ const config: Config = {
           position: 'left',
           label: 'Docs',
         },
-        {to: '/blog', label: 'Updates', position: 'left'},
         {
           href: 'https://github.com/GreenBoxStudio/greendocs',
           label: 'GitHub',
@@ -97,19 +94,6 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Produkt',
-          items: [
-            {
-              label: 'Dokumentation',
-              to: '/docs/intro',
-            },
-            {
-              label: 'Updates',
-              to: '/blog',
-            },
-          ],
-        },
-        {
           title: 'Studio',
           items: [
             {
@@ -119,7 +103,7 @@ const config: Config = {
           ],
         },
         {
-          title: 'Mehr',
+          title: 'More',
           items: [
             {
               label: 'GitHub',
